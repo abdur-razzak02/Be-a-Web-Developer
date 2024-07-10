@@ -55,9 +55,6 @@
 
 
 
-
-
-
 /* why web develop section */
 
 #why-web-development{
@@ -76,7 +73,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  border: 3px solid rebeccapurple;
 }
 .development-heading{
 padding: 0 30px;
@@ -98,16 +94,18 @@ padding: 0 30px;
   margin-bottom: 40px;
 }
 
-
-.do-in-development{
+.do-dev-topic1{
 width: 946px;
 height: 336px;
   border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 50px;
   background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.topic2bg{
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .left-content1{
 width: 477px;
@@ -264,6 +262,46 @@ text-decoration-line: underline;
 
 
 
+/* my next target */
+
+#my-next-target{
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.nt-content > div{
+  border: 1px solid lightgray;
+  padding: 40px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.reactjs, .nodejs, .mongodb{
+  display: flex;
+}
+.nt-image{
+  margin-right: 40px;
+}
+.nt-content h2{
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 10px;
+}
+.nt-content p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: .7;
+margin-bottom: 10px;
+}
+.nt-content a{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+color: black;
+text-decoration-line: underline;
+  }
+
+
 
 /* support section */
 
@@ -322,12 +360,36 @@ opacity: 0.7;
   font-size: 20px;
   font-weight: 600;
   width: 100px;
-  padding: 10px 15px;
+  padding: 8px 15px;
   border-radius: 8px;
   border: none;
-  margin-top: -42px;
+  margin-top: -39px;
   margin-right: -500px;
 }
 
 
 
+
+
+/* footer section */
+
+#footer{
+  background-color: rgba(13, 19, 33, 0.03);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-content{
+  width: 1140px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-left h5{
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
