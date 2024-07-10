@@ -195,3 +195,75 @@ height: 240px;
   margin: 0 auto;
   margin: 30px;
 }
+
+
+
+
+
+/* My current target */
+
+#current-target{
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.ct-title{
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.ct-title h1{
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 20px;
+}
+.ct-title p{
+  width: 852px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.html{
+  background-color:rgba(255, 76, 30, 0.05) ;
+}
+.css{
+  background-color:rgba(0, 76, 232, 0.05) ;
+}
+.JavaScript{
+  background-color:rgba(255, 223, 0, 0.05);
+}
+.ct-content{
+  display: flex;
+  justify-content: space-between;
+}
+.ct-body{
+  width: 364px;
+height: 299px;
+padding: 40px;
+border-radius: 15px;
+}
+.ct-body h2{
+  font-family: arial;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+margin: 10px 0;
+}
+.ct-body p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 10px;
+}
+.ct-body a{
+  color: black;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-decoration-line: underline;
+}
