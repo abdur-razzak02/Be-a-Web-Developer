@@ -141,3 +141,57 @@ text-decoration: none;
 width: 274.17px;
 height: 240px;
 }
+
+
+
+
+
+
+
+
+
+
+/* inspiration section */
+
+#my-inspiration{
+  width: 1140px;
+  height: 775px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
+.inspiration-title{
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.inspiration-title h1{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  margin-bottom: 20px;
+}
+.inspiration-title h3{
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+.inspiration-video{
+  width: 1140px;
+  height: 614px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 15px;
+}
+.inspiration-video iframe{
+  width: 1076px;
+  height: 550px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin: 30px;
+}
